@@ -17,13 +17,7 @@ Each test is independent, uses DTOs for data mapping, and includes detailed docu
 - An active internet connection.
 
 ## Running Tests
-All tests are executed using the TestNG suite defined in the suite.xml file, which is located in the src/test/resources directory. To run the tests, you can:
-
-- Use Maven from the command line:
-```
-mvn test -DsuiteXmlFile=src/test/resources/suite.xml
-```
-- Run the TestNG suite directly in your IDE by loading the suite.xml file.
+All tests are executed using the TestNG suite defined in the suite.xml file, which is located in the src/test/resources directory. To run the tests, you can run the TestNG suite directly in your IDE by loading the suite.xml file.
 
 ## Dependencies
 This project uses the following main dependencies:
